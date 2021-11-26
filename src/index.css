@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+/* This is a small project so why use two css files so i deleted the app.css and i will use index.css */
+body {
+  background: #111317;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+}
+.textarea {
+  width: 35vw;
+  height: 540px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+.output {
+  font-size: 18px;
+  width: 35vw;
+  height: 540px;
+  background: #222;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 10px;
+  color: #fff;
+  line-height: 3rem;
+}
