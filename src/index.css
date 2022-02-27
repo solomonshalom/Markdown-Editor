@@ -11,6 +11,8 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .container {
   display: flex;
@@ -34,4 +36,24 @@ body {
   padding: 10px;
   color: #fff;
   line-height: 3rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* center header */
+.header {
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

@@ -4,10 +4,12 @@ import ReactMarkdown from "react-markdown";
 
 const Markdown = () => {
   const [markDown, setMarkdown] = useState();
+  const element = <h1>Hello, world!</h1>;
  // ok so i have named my file react markdown thats why
   return (
     <>
       <div className="container">
+        <h1 className="header">Markdown Editor</h1>
         <textarea
           value={markDown}
           onChange={(e) => setMarkdown(e.target.value)}
@@ -17,6 +19,7 @@ const Markdown = () => {
           <ReactMarkdown>{markDown}</ReactMarkdown>
         </div>
       </div>
+      <footer>By Solomon Shalom Lijo</footer>
     </>
   );
 };
